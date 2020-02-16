@@ -1,11 +1,10 @@
 import './demo.css';
-
 import * as React    from 'react';
 import SectionsContainer from './components/SectionsContainer'
 import Section from './components/Section'
 import Header from './components/Header'
 import Footer from './components/Footer'
-
+import Homepage from './components/Homepage/Homepage'
 const app = document.querySelector('#app');
 
 class Example extends React.Component {
@@ -44,7 +43,7 @@ class Example extends React.Component {
                     <a href="">About</a>
                 </Footer>
                 <SectionsContainer className="container" {...options} activeSection={current}>
-                    <Section className="custom-section" verticalAlign="true" color="#69D2E7">Page 1</Section>
+                    <Section className="custom-section" verticalAlign="true" color="#69D2E7"><Homepage /></Section>
                     <Section color="#A7DBD8"><div><h1>page 2</h1></div></Section>
                     <Section color="#E0CC">Page 3</Section>
                     <Section color="#E0E4aa">Page 4</Section>

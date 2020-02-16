@@ -23,7 +23,7 @@ class Section extends Component {
 
   renderVerticalAlign = () => {
     const verticalAlignStyle = {
-      display: 'table-cell',
+      // display: 'table-cell',
       verticalAlign: 'middle',
       width: '100%'
     };
