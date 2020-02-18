@@ -18,7 +18,7 @@ class Example extends React.Component {
     render() {
         const options = {
             sectionClassName: 'section',
-            anchors: ['sectionOne', 'sectionTwo', 'sectionThree'],
+            anchors: ['about', 'sectionTwo', 'sectionThree'],
             scrollBar: false,
             navigation: true,
             verticalAlign: false,
@@ -49,6 +49,7 @@ class Example extends React.Component {
                     <Section color="#E0E4aa">Page 4</Section>
                     <Section color="#E0f4aa">Page 5</Section>
                 </SectionsContainer>
+                
 
                 <div className="btnGroup">
                     <button onClick={() => this.setState({current: current - 1})} disabled={current === 0}>pre</button>
