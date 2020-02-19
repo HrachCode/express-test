@@ -33,7 +33,7 @@ class Example extends React.Component {
         return (
             <div>
                 <Header>
-                    <a href="#sectionOne" className="opa">Section One</a>
+                    <a href="#about" className="opa">Section One</a>
                     <a href="#sectionTwo">Section Two</a>
                     <a href="#sectionThree">Section Three</a>
                 </Header>
